@@ -82,7 +82,7 @@ h1{
     background-color: azure;
     margin: 0 auto;
     border-radius: 50% 50% 100% 0% / 1% 0% 100% 99%  ;
-    background: #FFEFBA;  /* fallback for old browsers */
+    background: #FFEFBA;  
     background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
     background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
 
@@ -98,7 +98,7 @@ h1{
     background-color: azure;
     margin: 0 auto;
     border-radius: 50% 50% 100% 0% / 1% 0% 100% 99%;
-    background: #FFEFBA;  /* fallback for old browsers */
+    background: #FFEFBA;  
     background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
     background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
 
@@ -110,9 +110,12 @@ button{
     color: midnightblue !important;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
-    font-family: '8BITWONDERNominal';
-    font-weight: normal;
-    font-style: normal;
+    
+    
+ }
+
+ button:hover{
+     cursor: pointer;
  }
 
 .main-container-box2 > button {
@@ -129,6 +132,8 @@ button{
 }
 .main-container-box2 > label {
     text-align: center;
+    
+    
 }
 
 .main-container-box2 > textarea {
