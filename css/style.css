@@ -1,0 +1,157 @@
+html {
+    margin: 0;
+    height: 100%
+}
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    background: #003973;  
+background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  
+background: linear-gradient(to right, #E5E5BE, #003973); 
+
+}
+
+
+.main-container {
+    margin-top: 15px;
+    display: flex;
+    width: 800px;
+    height: 600px;
+    margin-left: 20%;
+    padding: 40px;
+    justify-content: space-between;
+    background: #abbaab;  
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab); 
+    background: linear-gradient(to right, #ffffff, #abbaab); 
+    border-radius: 50% 50% 100% 0% / 1% 0% 100% 99%  ;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+/*Propiedades para el contenedor header H1*/
+}
+.h-text {
+    margin-right: 5px;
+    height: 100px;
+    width: 300px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+    border-radius: 5%;
+    font-family: '8BITWONDERNominal';
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 5px;
+}
+
+h1{
+    text-align: center;
+}
+#grad-text {
+    font-size: 20px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*Divisor principar de los contenedores de encriptacion y resultado*/
+.main-container-box {
+    
+    height: 300px;
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 15px;
+    margin: 0 auto;
+    background: #FFEFBA;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+    border-radius: 50% 50% 100% 0% / 1% 0% 100% 99%  ;
+    box-shadow: inset 0 0 10px #FFFFFF;
+}
+
+/*Div Encriptador*/
+.main-container-box1 {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px;
+    background-color: azure;
+    margin: 0 auto;
+    border-radius: 50% 50% 100% 0% / 1% 0% 100% 99%  ;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+
+}
+/*Div Mensaje/Resultado*/
+.main-container-box2 { 
+    display: flex;
+    row-gap: 5px;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    padding: 15px;
+    background-color: azure;
+    margin: 0 auto;
+    border-radius: 50% 50% 100% 0% / 1% 0% 100% 99%;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+
+    
+}
+
+button{
+    background-image: linear-gradient(to right, #EDE574 0%, #E1F5C4  51%, #EDE574  100%);
+    color: midnightblue !important;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+ }
+
+.main-container-box2 > button {
+    color: green;
+    width: 70px;
+    text-align: center;
+    align-self: center;
+    
+}
+
+.main-container-box2 > input {
+
+    border: 1px transparent !important;
+}
+.main-container-box2 > label {
+    text-align: center;
+}
+
+.main-container-box2 > textarea {
+    width: 75%;
+    border: transparent;
+    border-radius: 5px;
+}
+/*Pie de Pagina*/
+footer {
+    margin: 0 auto;
+    color: yellow;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: '8BITWONDERNominal';
+    font-weight: normal;
+    font-style: normal;
+    
+}
+/*h4 footer*/
+#h-foo {
+    background: linear-gradient(to right, #177c7c 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10px !important;
+}
+
+
+ 
