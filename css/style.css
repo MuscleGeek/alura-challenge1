@@ -110,6 +110,9 @@ button{
     color: midnightblue !important;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
+    font-family: '8BITWONDERNominal';
+    font-weight: normal;
+    font-style: normal;
  }
 
 .main-container-box2 > button {
